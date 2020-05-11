@@ -1,0 +1,2 @@
+rootProject.name='KotlinCoroutineSample1'
+include ':app'
