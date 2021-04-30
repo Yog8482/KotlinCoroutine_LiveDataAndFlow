@@ -14,18 +14,15 @@
  * limitations under the License.
  */
 
-package com.kotlincoroutine.sample1
+package com.kotlincoroutine.sample1.adapter
 
-import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.facebook.shimmer.Shimmer
 import com.facebook.shimmer.ShimmerDrawable
 import com.facebook.shimmer.ShimmerFrameLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
-import java.lang.Exception
 
 val shimmer = Shimmer.AlphaHighlightBuilder()// The attributes for a ShimmerDrawable is set by this builder
     .setDuration(1000) // how long the shimmering animation takes to do one full sweep
