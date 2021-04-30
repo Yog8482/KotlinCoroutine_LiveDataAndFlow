@@ -1,24 +1,18 @@
 package com.kotlincoroutine.sample1.ui
 
 import android.content.Context
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.observe
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
-import com.kotlincoroutine.sample1.Album
 import com.kotlincoroutine.sample1.AlbumRepository
 import com.kotlincoroutine.sample1.Injector
-
-import com.kotlincoroutine.sample1.R
 import com.kotlincoroutine.sample1.adapter.AlbumAdapter
 import com.kotlincoroutine.sample1.databinding.AlbumListFragmentBinding
 
